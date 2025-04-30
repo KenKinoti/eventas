@@ -6,6 +6,14 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import HomePage from "@/pages/home-page";
 import AuthPage from "@/pages/auth-page";
+import ExplorePage from "@/pages/explore-page";
+import MyEventsPage from "@/pages/my-events-page";
+import ProfilePage from "@/pages/profile-page";
+import LiveEventsPage from "@/pages/live-events-page";
+import HelpPage from "@/pages/help-page";
+import EventsPage from "@/pages/events-page";
+import VenuesPage from "@/pages/venues-page";
+import CreateEventPage from "@/pages/create-event-page";
 import { ProtectedRoute } from "@/lib/protected-route";
 import { AuthProvider } from "@/hooks/use-auth";
 
@@ -13,14 +21,14 @@ function Router() {
   return (
     <Switch>
       <ProtectedRoute path="/" component={HomePage} />
-      <ProtectedRoute path="/explore" component={HomePage} />
-      <ProtectedRoute path="/my-events" component={HomePage} />
-      <ProtectedRoute path="/profile" component={HomePage} />
-      <ProtectedRoute path="/live-events" component={HomePage} />
-      <ProtectedRoute path="/help" component={HomePage} />
-      <ProtectedRoute path="/events" component={HomePage} />
-      <ProtectedRoute path="/venues" component={HomePage} />
-      <ProtectedRoute path="/create-event" component={HomePage} />
+      <ProtectedRoute path="/explore" component={ExplorePage} />
+      <ProtectedRoute path="/my-events" component={MyEventsPage} />
+      <ProtectedRoute path="/profile" component={ProfilePage} />
+      <ProtectedRoute path="/live-events" component={LiveEventsPage} />
+      <ProtectedRoute path="/help" component={HelpPage} />
+      <ProtectedRoute path="/events" component={EventsPage} />
+      <ProtectedRoute path="/venues" component={VenuesPage} />
+      <ProtectedRoute path="/create-event" component={CreateEventPage} />
       <Route path="/auth" component={AuthPage} />
       <Route component={NotFound} />
     </Switch>
