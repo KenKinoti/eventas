@@ -1,0 +1,30 @@
+"I want to design a next-generation events app that is more intuitive, feature-rich, and user-friendly than Eventbrite. The app should cater to event organizers, attendees, and vendors with a seamless experience. Here’s what I need:
+
+Core Features:
+✅ Smart Event Discovery – AI-powered recommendations based on user interests, past events, and social connections.
+✅ One-Click Registration – Ultra-fast signup with Google/Apple/Facebook login + digital ticketing (NFT/QR).
+✅ Seamless Event Management – Drag-and-drop event setup, real-time analytics, and automated email/SMS reminders.
+✅ Interactive Event Pages – Embedded live chats, polls, and social media integrations.
+✅ Virtual & Hybrid Events – Built-in live streaming, breakout rooms, and VR/AR experiences.
+✅ Smart Networking – AI matchmaking for attendees based on interests, LinkedIn integration, and in-app messaging.
+✅ Monetization & Payments – Multi-currency support, split payments for vendors, and crypto payments.
+✅ Community & Gamification – Badges, rewards for attendance, and leaderboards for top event-goers.
+✅ Offline Mode – Save event details and tickets for access without internet.
+✅ Sustainability Focus – Carbon footprint tracker for events, digital swag bags, and paperless check-ins.
+
+Design & UX Requirements:
+✨ Minimalist & Intuitive UI – Clean, fast, and accessible (dark mode, dyslexia-friendly fonts).
+✨ Personalized Dashboards – Customizable views for organizers and attendees.
+✨ Voice Commands & AI Assistant – "Hey [App], find tech meetups near me next week."
+✨ Offline-First Approach – Works smoothly even with poor connectivity.
+
+Unique Selling Points (USPs):
+🚀 "Event DNA" Profile – Learns user preferences over time for hyper-personalized suggestions.
+🚀 Instant Refund & Resale – Hassle-free ticket refunds and peer-to-peer resale marketplace.
+🚀 Augmented Reality Navigation – AR wayfinding for large venues/festivals.
+🚀 AI-Powered Event Highlights – Auto-generated recap videos post-event.
+
+Monetization Strategy:
+💰 Freemium model (free for basic features, premium for analytics & promotions).
+💰 Small transaction fee (lower than Eventbrite).
+💰 Sponsored event recommendations.
